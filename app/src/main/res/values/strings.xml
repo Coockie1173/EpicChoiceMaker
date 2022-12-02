@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">EpicChoiceMaker</string>
+    <string name="AppIntroCard">Epic Choice Maker 5000</string>
+    <string name="MakeChoice">
+        MAKE CHOICE
+    </string>
+    <string name="Settings">
+        SEttiNGS
+    </string>
+    <string name="PastChoices">
+        Past Choices
+    </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Landscape">Landscape</string>
+    <string name="Portrait">Portrait</string>
+    <string name="ForMe">Make choice for me</string>
+    <string name="EpilepsyMode">Epilepsy mode</string>
+    <string name="ChoiceMaker">Choicemaker</string>
+    <string name="title_activity_choice_maker">ChoiceMakerActivity</string>
+    <string name="ChoiceWord">Choice</string>
+    <string name="RemChoice">Remove</string>
+    <string name="AddChoice">Add Choice</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="RemoveChoices">Clear past choices</string>
+
+    <string name="displayname">Display Name</string>
+    <string name="datesave">Show Date</string>
+    <string name="Choice">Choice: </string>
+    <string name="From">From </string>
+    <string name="By">By </string>
+
+</resources>

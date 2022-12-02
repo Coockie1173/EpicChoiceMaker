@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/TitleCard"
+        android:layout_width="412dp"
+        android:layout_height="138dp"
+        android:layout_marginBottom="596dp"
+        android:background="@drawable/gradients"
+        android:fontFamily="@font/comic_neue"
+        android:text="@string/AppIntroCard"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ChoiceMake"
+        android:layout_width="137dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="137dp"
+        android:fontFamily="@font/comic_neue"
+        android:onClick="ChoiceThingPress"
+        android:text="@string/MakeChoice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TitleCard" />
+
+    <Button
+        android:id="@+id/settingBut"
+        android:layout_width="137dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="137dp"
+        android:fontFamily="@font/comic_neue"
+        android:onClick="SettingsPress"
+        android:text="@string/Settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChoiceMake" />
+
+    <Button
+        android:id="@+id/PastChoice"
+        android:layout_width="137dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="137dp"
+        android:fontFamily="@font/comic_neue"
+        android:onClick="PastChoicesButton"
+        android:text="@string/PastChoices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingBut" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

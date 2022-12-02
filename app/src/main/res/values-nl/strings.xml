@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EpicChoiceMaker</string>
+    <string name="AppIntroCard">
+        Epische
+        Keuze
+        Maker
+        5000</string>
+    <string name="MakeChoice">
+        MAAK KEUZE
+    </string>
+    <string name="Settings">
+        INSTElliNGEN
+    </string>
+    <string name="PastChoices">
+        Vorige Keuzes
+    </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Eerste Fragment</string>
+    <string name="second_fragment_label">Tweede Fragment</string>
+    <string name="next">Volgend</string>
+    <string name="previous">vorig</string>
+
+    <string name="hello_first_fragment">Dag Eerste fragment</string>
+    <string name="hello_second_fragment">Dag Tweede fragment. Arg: %1$s</string>
+    <string name="Landscape">Landscape</string>
+    <string name="Portrait">Portret</string>
+    <string name="ForMe">Maak keuze voor mij</string>
+    <string name="EpilepsyMode">Epilepsie mode</string>
+    <string name="ChoiceMaker">Keuze Maker</string>
+    <string name="title_activity_choice_maker">KeuzeMakerActivity</string>
+    <string name="ChoiceWord">Keuze</string>
+    <string name="RemChoice">Verwijder</string>
+    <string name="AddChoice">Keuze Toevoegen</string>
+    <string name="RemoveChoices">Vorige keuzes verwijderen</string>
+    <string name="displayname">Naam</string>
+    <string name="datesave">Toon Datum</string>
+    <string name="Choice">Keuze: </string>
+    <string name="From">Van </string>
+    <string name="By">Door </string>
+</resources>
